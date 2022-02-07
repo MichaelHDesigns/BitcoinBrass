@@ -1,0 +1,3 @@
+usr/local/bin/bitcoinbrassd usr/bin
+usr/local/bin/bitcoinbrass-cli usr/bin
+debian/examples/bitcoinbrass.conf etc/bitcoinbrass

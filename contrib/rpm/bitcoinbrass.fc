@@ -1,0 +1,8 @@
+/usr/bin/bitcoinbrass-cli		--	gen_context(system_u:object_r:bitcoinbrass_exec_t,s0)
+/usr/sbin/bitcoinbrassd		--	gen_context(system_u:object_r:bitcoinbrass_exec_t,s0)
+/usr/lib(64)?/bitcoinbrass/bitcoinbrassd		--	gen_context(system_u:object_r:bitcoinbrass_exec_t,s0)
+
+/etc/bitcoinbrass(/.*)?		gen_context(system_u:object_r:bitcoinbrass_conf_t,s0)
+/var/lib/bitcoinbrass(/.*)?		gen_context(system_u:object_r:bitcoinbrass_var_lib_t,s0)
+
+(/var)?/run/bitcoinbrassd(/.*)?   gen_context(system_u:object_r:bitcoinbrass_var_run_t,s0)

@@ -1,0 +1,11 @@
+[Protocol]
+exec=bitcoinbrass-qt '%u'
+protocol=bitcoinbrass
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

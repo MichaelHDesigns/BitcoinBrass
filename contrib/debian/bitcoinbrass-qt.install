@@ -1,0 +1,6 @@
+usr/local/bin/bitcoinbrass-qt usr/bin
+share/pixmaps/bitcoinbrass32.xpm usr/share/pixmaps
+share/pixmaps/bitcoinbrass16.xpm usr/share/pixmaps
+share/pixmaps/bitcoinbrass128.png usr/share/pixmaps
+debian/bitcoinbrass-qt.desktop usr/share/applications
+debian/bitcoinbrass-qt.protocol usr/share/kde4/services/

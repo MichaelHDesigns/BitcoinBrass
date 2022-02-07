@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=BitcoinBrass Core
+Comment=BitcoinBrass P2P Cryptocurrency
+Comment[fr]=BitcoinBrass, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitcoinBrass, eşten eşe kriptografik sanal para birimi
+Exec=bitcoinbrass-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoinbrass128
+MimeType=x-scheme-handler/bitcoinbrass;
+Categories=Office;Finance;
+StartupWMClass=BitcoinBrass-qt
